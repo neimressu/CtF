@@ -1,0 +1,2 @@
+execute if score t1 score >= #max score run function ctf_scores:team1_win with storage ctf:data team_names
+execute if score t2 score >= #max score run function ctf_scores:team2_win with storage ctf:data team_names

@@ -7,4 +7,5 @@ execute as @p[tag=picked_flag1,nbt={Health:0f}] run function ctf:flag2/return_fl
 execute as @p[tag=picked_flag2,nbt={Health:0f}] run function ctf:flag1/return_flag
 
 execute as @a[tag=picked_flag1] run effect give @s glowing 1 0 true
+execute as @e[tag=ctf,tag=flag1,type=item_display] if entity @p[tag=picked_flag1] run effect give @s glowing 1 0 true
 execute as @a[tag=picked_flag2] run effect give @s glowing 1 0 true

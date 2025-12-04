@@ -1,5 +1,6 @@
 {
     "values":[
-        "ctf:load"
+        "ctf:load",
+        "ctf_scores:timer"
     ]
 }
